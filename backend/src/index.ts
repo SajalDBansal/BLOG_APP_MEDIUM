@@ -1,6 +1,7 @@
 import { Hono } from 'hono'
 import { blogRouter } from './routes/blog';
 import { userRouter } from './routes/user';
+import { cors } from 'hono/cors';
 
 // Create the main Hono app
 const app = new Hono<{
@@ -9,6 +10,8 @@ const app = new Hono<{
     JWT_SECRET: string;
   }
 }>();
+
+app.use(cors());
 
 app.get('/', (c) => {
   return c.text('Root directory of blog-app-medium backend server')
