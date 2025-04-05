@@ -34,27 +34,3 @@ export const Blogs = () => {
         </div>
     )
 }
-
-
-
-
-const blogData = [
-    {
-        authorName: "Sajaldbansal",
-        title: "Getting Started with React",
-        content: "React is a popular JavaScript library for building user interfaces. In this blog post, we'll explore the fundamentals of React, including components, props, and state management. We'll also look at some best practices and common patterns used in React development.",
-        publishedDate: "2nd Feb 2025"
-    },
-    {
-        authorName: "johndoe",
-        title: "TypeScript Best Practices",
-        content: "TypeScript adds static typing to JavaScript, making it more robust and maintainable. This post covers essential TypeScript features, common pitfalls to avoid, and how to effectively use TypeScript in your projects. We'll explore interfaces, types, and advanced concepts.",
-        publishedDate: "1st Feb 2025"
-    },
-    {
-        authorName: "alicesmith",
-        title: "Modern CSS Techniques",
-        content: "Discover the latest CSS features and techniques that can enhance your web development workflow. From CSS Grid to Custom Properties, we'll explore how modern CSS can help you create more maintainable and flexible layouts.",
-        publishedDate: "31st Jan 2025"
-    }
-];
